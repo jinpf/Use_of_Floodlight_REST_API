@@ -9,8 +9,8 @@ import requests
 
 def Print_all(value,slen=0):
 	'''
-	print all values in mixed struct, slen stands for 
-	how many backspace behind the output
+	print all values in mixed structure, slen stands for 
+	how many backspace in front of the output
 	'''
 	if type(value)==dict:
 		for i in value:
